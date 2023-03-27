@@ -1,10 +1,10 @@
 
-
+import {Heading, Text} from '@ignite-ui/react'
 
 export default function Home() {
   return (
     <>
-      <h1>Troca de Turno</h1>
+      <Heading as="h1">Troca de Turno</Heading>
     </>
   )
 }
