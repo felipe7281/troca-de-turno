@@ -36,7 +36,7 @@ export default async function handler(
     {
       res,
     },
-    '@ignitecall:userId',
+    '@trocadeturno:userId',
     user.id,
     {
       maxAge: 60 * 60 * 24 * 7, // 7 days

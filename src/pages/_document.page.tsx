@@ -11,17 +11,17 @@ export default function Document() {
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
-
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
           rel="stylesheet"
         />
-
         <style
           id="stitches"
           dangerouslySetInnerHTML={{ __html: getCssText() }}
-        />
-        {/* Essa tag style executa o css mesmo com o javascript desabilitado */}
+        />{' '}
+        {
+          // A tag <style> acima serve para executar o css sem precisar do javascript
+        }
       </Head>
       <body>
         <Main />
