@@ -17,7 +17,7 @@ import { useSession } from 'next-auth/react'
 import { GetServerSideProps } from 'next'
 import { getServerSession } from 'next-auth'
 import { buildNextAuthOptions } from '../../api/auth/[...nextauth].api'
-import { api } from '@/src/lib/axios'
+import { api } from '@/lib/axios'
 import { useRouter } from 'next/router'
 
 const updateProfileSchema = z.object({
